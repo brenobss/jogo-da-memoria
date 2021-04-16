@@ -11,15 +11,25 @@
 </head>
 
 <body>
-    <div class="card">
-        <div class="card_front" data-icon="bootstrap">
-            <img class="icon" src="assets/images/bootstrap.png">
-        </div>
-        <div class="card_back">
-            &lt/&gt
-        </div>
+    <div id="board">
+        <!-- <div class="card flip">
+            <div class="card_front" data-icon="bootstrap">
+                <img class="icon image" src="assets/images/react.png">
+            </div>
+            <div class="card_back">
+                &lt/&gt
+            </div>
+        </div> -->
+
     </div>
 
+    <div id="gameOver">
+        <div class="txtGameOver">
+            Parabéns você concluiu o jogo!
+        </div>
+        <button id="restartGame" onclick="restartGame()">Jogue Novamente</button>
+    </div>
+    <script src="./assets/js/game.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
